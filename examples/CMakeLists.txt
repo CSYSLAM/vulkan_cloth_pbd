@@ -84,7 +84,11 @@ function(buildExamples)
 endfunction(buildExamples)
 
 set(EXAMPLES
-	computecloth
+	computeclothPBD
+        computeclothSPRING
+	computeclothPBDonlydistcons
+	computeclothPBDNeoHook
+	SPRING_SharedMemory
 )
 
 buildExamples()
